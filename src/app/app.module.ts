@@ -13,6 +13,7 @@ import { CareersComponent } from './main/careers/careers.component';
 import { ContactsComponent } from './main/contacts/contacts.component';
 import { SliderComponent } from './design/slider/slider.component';
 import { HeaderComponent } from './design/header/header.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
 	declarations: [
@@ -24,12 +25,14 @@ import { HeaderComponent } from './design/header/header.component';
 		CareersComponent,
 		ContactsComponent,
 		SliderComponent,
-		HeaderComponent
+		HeaderComponent,
+		 
 	],
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
 		BrowserAnimationsModule,
+		MatCardModule,
 		RouterModule.forRoot([
 			{
 				path: 'home',
