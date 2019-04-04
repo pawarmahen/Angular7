@@ -13,6 +13,7 @@ import { CareersComponent } from './main/careers/careers.component';
 import { ContactsComponent } from './main/contacts/contacts.component';
 import { SliderComponent } from './design/slider/slider.component';
 import { HeaderComponent } from './design/header/header.component';
+import {MatCardModule} from '@angular/material/card';
 import { HomeCardsComponent } from './design/home-cards/home-cards.component';
 import { MaterialModule } from './material/material.module';
 @NgModule({
@@ -32,6 +33,7 @@ import { MaterialModule } from './material/material.module';
 		BrowserModule,
 		AppRoutingModule,
 		BrowserAnimationsModule,
+		MatCardModule,
 		MaterialModule,
 		RouterModule.forRoot([
 			{

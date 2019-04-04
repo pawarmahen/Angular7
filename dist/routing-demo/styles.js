@@ -18,7 +18,7 @@ module.exports = [[module.i, ".mat-badge-content{font-weight:600;font-size:12px;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nhtml,\nbody {\n  height: 100%; }\nbody {\n  margin: 0;\n  font-family: Roboto, \"Helvetica Neue\", sans-serif; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9EOlxcTWFoZW5kcmEgV29ya3NwYWNlXFxPbGQgYmFja3VwXFxHaXRSZXBvXFxBbmd1bGFyNy9zcmNcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUFBO0FBRUE7O0VBRUMsWUFBWSxFQUFBO0FBRWI7RUFDQyxTQUFTO0VBQ1QsaURBQWlELEVBQUEiLCJmaWxlIjoic3JjL3N0eWxlcy5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuXG5odG1sLFxuYm9keSB7XG5cdGhlaWdodDogMTAwJTtcbn1cbmJvZHkge1xuXHRtYXJnaW46IDA7XG5cdGZvbnQtZmFtaWx5OiBSb2JvdG8sIFwiSGVsdmV0aWNhIE5ldWVcIiwgc2Fucy1zZXJpZjtcbn1cbiJdfQ== */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nhtml,\nbody {\n  height: 100%; }\nbody {\n  margin: 0;\n  font-family: Roboto, \"Helvetica Neue\", sans-serif; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9EOlxcZ2l0IHJlcG9cXEFuZ3VsYXI3L3NyY1xcc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsOEVBQUE7QUFFQTs7RUFFQyxZQUFZLEVBQUE7QUFFYjtFQUNDLFNBQVM7RUFDVCxpREFBaUQsRUFBQSIsImZpbGUiOiJzcmMvc3R5bGVzLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXHJcblxyXG5odG1sLFxyXG5ib2R5IHtcclxuXHRoZWlnaHQ6IDEwMCU7XHJcbn1cclxuYm9keSB7XHJcblx0bWFyZ2luOiAwO1xyXG5cdGZvbnQtZmFtaWx5OiBSb2JvdG8sIFwiSGVsdmV0aWNhIE5ldWVcIiwgc2Fucy1zZXJpZjtcclxufVxyXG4iXX0= */", '', '']]
 
 /***/ }),
 
@@ -598,8 +598,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Mahendra Workspace\Old backup\GitRepo\Angular7\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
-module.exports = __webpack_require__(/*! D:\Mahendra Workspace\Old backup\GitRepo\Angular7\src\styles.scss */"./src/styles.scss");
+__webpack_require__(/*! D:\git repo\Angular7\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
+module.exports = __webpack_require__(/*! D:\git repo\Angular7\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
