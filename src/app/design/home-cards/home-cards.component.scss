@@ -1,0 +1,14 @@
+.home-cards {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	.box {
+		flex-basis: 21%;
+	}
+	.box_header {
+		text-align: center;
+		display: block;
+	}
+	.box_content {
+	}
+}
