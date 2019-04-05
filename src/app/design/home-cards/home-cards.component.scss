@@ -34,19 +34,35 @@
 				padding:48px !important;
 			}
 		}
+		@media (min-width: 768px) {
+			.col-lg-3 {
+				-webkit-box-flex: 0;
+				-ms-flex: 0 0 50%;
+				flex: 0 0 50%;
+				max-width: 50%;
+			}
+		}
 		@media (min-width: 992px) {
 			.col-lg-3 {
 				-webkit-box-flex: 0;
 				-ms-flex: 0 0 25%;
 				flex: 0 0 25%;
 				max-width: 25%;
- 	
+	
 			.padding48 {
 				padding:48px !important;
 			}
 			.material-icons.md-dark {
 			     color:#fff !important;
 				}
+			}
+		}
+		@media (min-width: 1366px) {
+			.col-lg-3 {
+				-webkit-box-flex: 0;
+				-ms-flex: 0 0 25%;
+				flex: 0 0 25%;
+				max-width: 25%;
 			}
 		}
 		.purple1 {
@@ -57,10 +73,8 @@
 		}
 		.light-blue {
 			background-color: #29b6f6 !important;
-		}
-		
+		}	
 	}
-	 
 }
 
 .mat-card {
