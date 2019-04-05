@@ -16,6 +16,7 @@ import { HeaderComponent } from './design/header/header.component';
 import {MatCardModule} from '@angular/material/card';
 import { HomeCardsComponent } from './design/home-cards/home-cards.component';
 import { MaterialModule } from './material/material.module';
+import { WorkWithUsComponent } from './design/work-with-us/work-with-us.component';
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -27,7 +28,8 @@ import { MaterialModule } from './material/material.module';
 		ContactsComponent,
 		SliderComponent,
 		HeaderComponent,
-		HomeCardsComponent
+		HomeCardsComponent,
+		WorkWithUsComponent
 	],
 	imports: [
 		BrowserModule,

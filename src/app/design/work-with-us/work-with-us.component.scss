@@ -1,0 +1,23 @@
+.work-with-container {
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	display: block;
+	box-sizing: border-box;
+	margin-top: 30px;
+	.work-with-cards {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 30px;
+
+		.box {
+			padding: 20px;
+			flex-basis: 20%;
+
+			.text-center {
+				text-align: center;
+				display: block;
+			}
+		}
+	}
+}

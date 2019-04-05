@@ -1,0 +1,16 @@
+.container {
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding: 20px;
+	box-sizing: border-box;
+	height: 100vh;
+	overflow-y: hidden;
+	background: #333;
+
+	.full-width {
+		width: 95%;
+		text-align: left;
+		margin-right: 5%;
+	}
+}
