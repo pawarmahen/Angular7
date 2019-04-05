@@ -1,23 +1,111 @@
-.work-with-container {
-	width: 100%;
+.grey.lighten-4 {
+	background-color: #f5f5f5!important;
 	text-align: center;
-	padding: 10px;
-	display: block;
-	box-sizing: border-box;
-	margin-top: 30px;
-	.work-with-cards {
-		display: flex;
-		justify-content: space-around;
-		margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	
+	.container {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+@media (min-width: 576px) {
+	.container {
+	 max-width: 540px;
+	 }
+ }
 
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+		}
+ }
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+.work-with-container {	 
 		.box {
 			padding: 20px;
-			flex-basis: 20%;
-
 			.text-center {
 				text-align: center;
 				display: block;
 			}
 		}
 	}
+		.text-center {
+			text-align: center!important;
+		}
+	.row {
+		margin-right: -0;
+		margin-left: -0;
+		.work-with-cards {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			margin-right: -0;
+			margin-left: -0;
+
+	 .py-5 {
+			padding-top: 3rem!important;
+		} 
+.col-lg-3 {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;			
+	.blog-title {
+		width:100% !important;
+		text-align:center !important;
+		display: block !important;
+	}
+}
+	.padding48 {
+		padding:48px !important;
+	}
+@media (min-width: 992px) {
+	.col-lg-3 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;	
+	.blog-title {
+		width:100% !important;
+		text-align:center !important;
+		display: block !important;
+	}	 
+ }
+}
+		}
+ 
+.work-with-container h2  {
+	color:#212529;
+	font-size:28px;
+}
+	}
+ }
+
+ 
+
+.mat-card {
+	background: none !important;
+	border-radius:0 !important;
+	box-shadow:none !important;
+}
+.mat-card-header .mat-card-title {
+	font-size:24px !important;
 }
