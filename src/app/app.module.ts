@@ -13,11 +13,12 @@ import { CareersComponent } from './main/careers/careers.component';
 import { ContactsComponent } from './main/contacts/contacts.component';
 import { SliderComponent } from './design/slider/slider.component';
 import { HeaderComponent } from './design/header/header.component';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { HomeCardsComponent } from './design/home-cards/home-cards.component';
 import { MaterialModule } from './material/material.module';
 import { WorkWithUsComponent } from './design/work-with-us/work-with-us.component';
 import { FooterComponent } from './design/footer/footer.component';
+import { SupportCardsComponent } from './design/support-cards/support-cards.component';
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -31,7 +32,8 @@ import { FooterComponent } from './design/footer/footer.component';
 		HeaderComponent,
 		HomeCardsComponent,
 		WorkWithUsComponent,
-		FooterComponent
+		FooterComponent,
+		SupportCardsComponent
 	],
 	imports: [
 		BrowserModule,
