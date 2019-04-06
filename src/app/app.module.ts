@@ -17,6 +17,7 @@ import {MatCardModule} from '@angular/material/card';
 import { HomeCardsComponent } from './design/home-cards/home-cards.component';
 import { MaterialModule } from './material/material.module';
 import { WorkWithUsComponent } from './design/work-with-us/work-with-us.component';
+import { FooterComponent } from './design/footer/footer.component';
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -29,7 +30,8 @@ import { WorkWithUsComponent } from './design/work-with-us/work-with-us.componen
 		SliderComponent,
 		HeaderComponent,
 		HomeCardsComponent,
-		WorkWithUsComponent
+		WorkWithUsComponent,
+		FooterComponent
 	],
 	imports: [
 		BrowserModule,

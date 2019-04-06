@@ -3,5 +3,12 @@
 	height: 100vh;
 	background: url('../../../assets/images/StockSnap_7OPWOSQFXS.jpg') no-repeat center center;
 	background-size: cover;
-	position:relative;
+	position: relative;
+}
+.content {
+	position: absolute;
+	top: 100px;
+	margin: 80px;
+	color: white;
+	z-index: 1;
 }
