@@ -3,6 +3,8 @@
 	text-align: center;
 	display: flex;
 	justify-content: space-around;
+	padding-top:30px;
+	padding-bottom:30px;
 	
 	.container {
 		width: 100%;
@@ -93,8 +95,9 @@
 		}
  
 .work-with-container h2  {
-	color:#212529;
-	font-size:28px;
+		color:#212529;
+		font-size:35px;
+		font-weight: normal;
 }
 	}
  }
