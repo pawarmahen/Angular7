@@ -19,6 +19,8 @@ import { MaterialModule } from './material/material.module';
 import { WorkWithUsComponent } from './design/work-with-us/work-with-us.component';
 import { FooterComponent } from './design/footer/footer.component';
 import { SupportCardsComponent } from './design/support-cards/support-cards.component';
+ 
+
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -43,6 +45,10 @@ import { SupportCardsComponent } from './design/support-cards/support-cards.comp
 		MaterialModule,
 		RouterModule.forRoot([
 			{
+				path:'',
+				component: HomeComponent
+			},
+			{
 				path: 'home',
 				component: HomeComponent
 			},
@@ -65,6 +71,10 @@ import { SupportCardsComponent } from './design/support-cards/support-cards.comp
 			{
 				path: 'contact',
 				component: ContactsComponent
+			},
+			{
+				path: '**',
+				component:ProductComponent
 			}
 		])
 	],
