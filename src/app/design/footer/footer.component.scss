@@ -52,6 +52,12 @@
 				padding-right: 15px;
 				padding-left: 15px;
 				text-align:center;
+
+				i.material-icons {
+					vertical-align: middle;
+					display: inline-block;
+					color:#fff;
+				}
 			}
 		@media (min-width: 992px) {
 				.col-sm-3 {

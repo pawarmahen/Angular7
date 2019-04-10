@@ -35,8 +35,14 @@
 					padding-bottom: 5px;
 					display: inline-block;
 					text-align: center;
-					border-bottom: solid 3px transparent;
-			 
+					border-bottom: solid 3px transparent;  
+					&:hover {
+						border-bottom: solid 3px #fff;  
+					  }
+			      a {
+					  color:#fff;
+					  text-decoration:none;
+				  }
 				}
 				
 			}
