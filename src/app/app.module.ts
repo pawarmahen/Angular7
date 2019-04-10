@@ -43,6 +43,10 @@ import { SupportCardsComponent } from './design/support-cards/support-cards.comp
 		MaterialModule,
 		RouterModule.forRoot([
 			{
+				path: '',
+				component: HomeComponent
+			},
+			{
 				path: 'home',
 				component: HomeComponent
 			},
@@ -65,6 +69,10 @@ import { SupportCardsComponent } from './design/support-cards/support-cards.comp
 			{
 				path: 'contact',
 				component: ContactsComponent
+			},
+			{
+				path: '**',
+				component: ProductComponent
 			}
 		])
 	],
