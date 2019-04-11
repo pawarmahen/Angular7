@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,7 +19,6 @@ import { MaterialModule } from './material/material.module';
 import { WorkWithUsComponent } from './design/work-with-us/work-with-us.component';
 import { FooterComponent } from './design/footer/footer.component';
 import { SupportCardsComponent } from './design/support-cards/support-cards.component';
- 
 
 @NgModule({
 	declarations: [
@@ -43,9 +42,10 @@ import { SupportCardsComponent } from './design/support-cards/support-cards.comp
 		BrowserAnimationsModule,
 		MatCardModule,
 		MaterialModule,
+		ReactiveFormsModule,
 		RouterModule.forRoot([
 			{
-				path:'',
+				path: '',
 
 				component: HomeComponent
 			},
@@ -75,8 +75,7 @@ import { SupportCardsComponent } from './design/support-cards/support-cards.comp
 			},
 			{
 				path: '**',
-				component:ProductComponent
-
+				component: ProductComponent
 			}
 		])
 	],
