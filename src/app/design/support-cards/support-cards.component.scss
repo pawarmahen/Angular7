@@ -82,8 +82,13 @@
 		margin-right: auto;
 		margin-left: auto;
 		box-sizing: border-box;	
+		
 		&::after, ::before {
 			box-sizing: border-box;
+		}
+		.white-text {
+			text-align:center;
+			color:#fff;
 		}
 		@media (min-width: 576px) { 
 			 max-width: 540px;
@@ -146,7 +151,7 @@
 					.mat-card-subtitle {
 						font-size:16px !important;
 					}
-				}
+				  }
 				}
 			 
 		}

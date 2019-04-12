@@ -1,64 +1,80 @@
+<section class="contactform">
 <div class="container">
     <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
-        <h2 class="h1 pt-5 pb-3">Contact us</h2>
-        <p class="px-5 mb-5 pb-3 lead blue-grey-text">
+        <h2 class="h1 white-text">Contact us</h2>
+        <p class="px-5 lead white-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
           aliqua. Ut enim ad minim veniam.
         </p>
     </div>
 
     <div class="contact-form wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
-        <form [formGroup]="exForm">
-                <mat-card>
-                    <mat-card-content>
-                        <mat-grid-list cols="3" rowHeight="100px">
-                            <mat-grid-tile>
-                                    <mat-form-field class="full-width">
-                                       <input matInput placeholder="Your name" formControlName="firstName">
-                                       <span *ngIf="f.firstName.errors">this field is required</span>
-                                    </mat-form-field>
-                                        
-                            </mat-grid-tile>
-                            <mat-grid-tile>
-                                    <mat-form-field class="full-width">
-                                            <input matInput placeholder="Your email" formControlName="emailAddress">
-                                         </mat-form-field>
-                            </mat-grid-tile>
-                            <mat-grid-tile>
-                                    <i class="material-icons md-48 md-dark">
-                                            location_on
-                                            </i>
-                                            <p>140, City Center, New York, U.S.A</p>
-                            </mat-grid-tile>
-                        </mat-grid-list>
-                        <mat-grid-list cols="3" rowHeight="100px">
-                                <mat-grid-tile [colspan] = "2">
-                                        <mat-form-field class="full-width">
-                                           <input matInput placeholder="Subject">
-                                        </mat-form-field>
-                                </mat-grid-tile>
-                                <mat-grid-tile> 
-                                        <i class="material-icons md-48 md-dark">
-                                                call
-                                                </i>
-                                                <p>+ 01 234 567 89</p>
-                                </mat-grid-tile>
-                            </mat-grid-list>
-                            <mat-grid-list cols="3" rowHeight="100px">
-                                    <mat-grid-tile [colspan] = "2">
-                                            <mat-form-field class="full-width">
-                                               <textarea matInput cols="3" placeholder="Your message"></textarea>
-                                            </mat-form-field>
-                                    </mat-grid-tile>
-                                    <mat-grid-tile>
-                                            <i class="material-icons md-48 md-dark">
-                                                    email
-                                                    </i>
-                                                    <p>contact@company.com</p>
-                                    </mat-grid-tile>
-                                </mat-grid-list>    
-                    </mat-card-content>
-                </mat-card>
+                <div class="container">
+        <div class="row">
+                <div class="contactBG">
+          <div class="col-md-8 contactformLeft">       
+        <form [formGroup]="exForm" (ngSubmit)="onSubmit()">
+                <div class="row">
+                                <div class="col-md-6">
+                                       <input class="form-control" matInput placeholder="Your name" formControlName="firstName"  [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }">
+                                        <div *ngIf="f.firstName.errors" class="invalid-feedback">
+                                           <div *ngIf="f.firstName.errors.required">Field is required * </div>
+                                        </div>
+                                      
+                                </div>
+
+                                <div class="col-md-6">      
+                                     <input class="form-control" matInput placeholder="Your email" formControlName="emailAddress" [ngClass]="{'is-invalid': submitted && f.emailAddress.errors }">
+                                       <div *ngIf="f.emailAddress.errors" class="invalid-feedback">
+                                                <div *ngIf="f.emailAddress.errors.required">Field is required * </div>
+                                             </div>
+                                </div>   
+                                  
+                                  <div class="col-md-12">
+                                       <input class="form-control" matInput placeholder="Subject" formControlName="subject" [ngClass]="{'is-invalid': submitted && f.subject.errors }">
+                                         <div *ngIf="f.subject.errors" class="invalid-feedback">
+                                                <div *ngIf="f.subject.errors.required">Field is required * </div>
+                                             </div>
+                                 </div>
+
+                                <div class="col-md-12">       
+                                       <textarea class="form-control"  matInput  placeholder="Your message" formControlName="message" [ngClass]="{'is-invalid': submitted && f.message.errors}"></textarea>
+                                       <div *ngIf="f.message.errors" class="invalid-feedback">
+                                                <div *ngIf="f.message.errors.required">Field is required * </div>
+                                             </div>
+                                </div>
+
+                                <div class="center-on-small-only mb-4">
+                                        <input type="submit" class="btn" value="Send" /> 
+                                </div>
+                
+                </div>
+
         </form>
+                
+                  </div>
+
+                        <div class="col-md-4">
+                        <div class="contactinfo">
+                        <i class="material-icons md-48 md-dark">
+                                call
+                                </i>
+                                <p>+ 01 234 567 89</p>
+         
+                                <i class="material-icons md-48 md-dark">
+                                        location_on
+                                        </i>
+                                        <p>140, City Center, New York, U.S.A</p>
+                       
+                                        <i class="material-icons md-48 md-dark">
+                                                email
+                                                </i>
+                                                <p>contact@company.com</p>
+                                        </div>
+                        </div>
+                        </div>
+                </div>
+                </div>
+        </div>
     </div>
-</div>
+</section>
