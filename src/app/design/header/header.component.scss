@@ -8,6 +8,7 @@
 	.navbar {
 			font-size: 18px;
 			padding-bottom: 10px;
+			
 		@media(min-width:992px) {
 				display: flex;
 				justify-content: space-between;
@@ -16,9 +17,9 @@
 				align-items: center;
 				background: #3949ab !important;
 		 }
-		.main-nav {
+		.navbar-nav {
 			list-style-type: none;
-			display: none;
+			 
 			@media(min-width:992px) {
 				display: flex;
 				margin-right: 30px;
@@ -36,14 +37,15 @@
 					display: inline-block;
 					text-align: center;
 					border-bottom: solid 3px transparent;  
+				}
 					&:hover {
 						border-bottom: solid 3px #fff;  
 					  }
 			      a {
-					  color:#fff;
+					  color:#fff !important;
 					  text-decoration:none;
 				  }
-				}
+				
 				
 			}
 		}
@@ -78,6 +80,16 @@
 			}
 		}
 	}	 
+	.bg-dark {
+		background: #3949ab !important;	
+		.navbar-dark {
+			.navbar-toggler {
+				border-color:#fff !important;
+				border:1px solid #fff !important;
+			}
+
+		}
+	}
 }
  
 
