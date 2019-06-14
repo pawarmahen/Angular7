@@ -13,7 +13,7 @@ export class ContactsComponent implements OnInit {
 	constructor(private fb: FormBuilder) {
 		this.exForm = this.fb.group({
 			firstName: [ '', Validators.required ],
-			emailAddress: [ '', Validators.required, Validators.email],
+			emailAddress: ['', [Validators.required, Validators.email]],
 			subject: ['', Validators.required],
 			message: ['', Validators.required] 
 		});
